@@ -29,16 +29,9 @@
 # bölənlər = [x for x in range(1, ədəd + 1) if ədəd % x == 0]
 # print(bölənlər)
 ##5.məsələ..................................
-##1.üsul*******
 # aylar = ["Yanvar", "Fevral", "Mart", "Aprel", "May", "İyun", "İyul", "Avqust", "Sentyabr", "Oktyabr", "Noyabr", "Dekabr"]
 # ay_length = {ay: len(ay) for ay in aylar}
-# list = [ay_length[ay] for ay in aylar]
-# print(list)
-##2.üsul********
-# aylar = ["Yanvar", "Fevral", "Mart", "Aprel", "May", "İyun", "İyul", "Avqust", "Sentyabr", "Oktyabr", "Noyabr", "Dekabr"]
-# ay_length = {ay: len(ay) for ay in aylar}
-# list = list(map(lambda ay: ay_length[ay], aylar))
-# print(list)
+# print(ay_length)
 ##6.məsələ.....................................
 # names_surnames = ["Rich Sanchez", "Morty Smith", "Summer Smith", "Jerry Smith", "Beth Smith"]
 # names = [name.split()[0].title().lower() for name in names_surnames ]
