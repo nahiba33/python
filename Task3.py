@@ -20,5 +20,3 @@ her_dog = Dog('Leslie', 5, 'Husky')
 print(f"Mənim itimin adı {my_dog.name}dır.{my_dog.name}nin {my_dog.age} yaşı var. Onun cinsi {my_dog.kind}dır.{my_dog.sit(True)}, lakin {my_dog.roll_over(False)}. ")
 print(f"Mənim itimin adı {your_dog.name}dır.{your_dog.name}nin {your_dog.age} yaşı var. Onun cinsi {your_dog.kind}dır.{your_dog.sit(False)}, lakin {your_dog.roll_over(True)}.")
 print(f"Mənim itimin adı {her_dog.name}dır.{her_dog.name}nin {her_dog.age} yaşı var. Onun cinsi {her_dog.kind}dır.{her_dog.sit(True)} və {her_dog.roll_over(True)}. ")   
-      
-    
