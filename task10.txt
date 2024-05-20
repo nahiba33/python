@@ -1,0 +1,4 @@
+Now if someone tries to call fill_gas_tank() with an electric car, Python 
+will ignore the method fill_gas_tank() in Car and run this code instead. 
+When you use inheritance, you can make your child classes retain what you 
+need and override anything you don’t need from the parent class
